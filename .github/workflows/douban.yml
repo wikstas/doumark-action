@@ -1,0 +1,18 @@
+name: douban
+on: 
+  schedule:
+  - cron: "30 * * * *"
+
+jobs:
+  douban:
+    name: Douban mark data sync
+    runs-on: ubuntu-latest
+    steps:
+    - name: movie
+      uses: lizheming/doumark-action@master
+      with:
+        id: r1cky1225
+        type: movie
+        format: notion
+        dir: 13b03770820c802594d7d2d4902c7e86
+        notion_token: ${{ ntn_hB930120204adOwzS8yfW5LAwWHmibUduhq1cnw89oA2vC }}
