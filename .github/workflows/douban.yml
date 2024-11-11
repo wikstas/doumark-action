@@ -15,4 +15,4 @@ jobs:
         type: movie
         format: notion
         dir: 13b03770820c802594d7d2d4902c7e86
-        notion_token: ${{ ntn_hB930120204adOwzS8yfW5LAwWHmibUduhq1cnw89oA2vC }}
+        notion_token: ntn_hB930120204adOwzS8yfW5LAwWHmibUduhq1cnw89oA2vC
